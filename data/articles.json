@@ -1,0 +1,18 @@
+[{
+  "id": 1,
+  "titre": "Bien développer en PHP",
+  "desc": "PHP permet de générer des pages Web dynamiques, ce qui rend son usage très répandu. On se sert également de PHP comme d’un langage de programmation, ou encore comme d’un script en ligne de commande qui ne nécessite pas de serveur HTTP ou de navigateur.\n\nPHP a aussi l’avantage de permettre l’utilisation de fonctions appartenant à d’autres langages, comme le C, sans avoir besoin de compilation lorsque l’on modifie le code source. PHP descend d’ailleurs du langage C. Si sa syntaxe s’en inspire directement, ainsi que des langages Java et Perl, il a l’avantage de pouvoir se mélanger aisément avec du code HTML. D’ailleurs, il est vivement recommandé de commencer par l’apprentissage du HTML, voire même du CSS, pour être en mesure de comprendre le PHP. C’est pourquoi nous proposons une initiation au HTML et un module complémentaire au cours de PHP dans notre formation.\n\nPour apprendre le PHP, il est nécessaire de bien comprendre son fonctionnement. Le PHP fonctionne de la façon suivante : lorsqu’une personne visite la page d’un site Internet, le navigateur qu’elle utilise envoie une requête au serveur HTTP. Le serveur identifie le script PHP puis appelle l’interprète PHP qui pourra alors traiter et générer le code de la page. Le contenu est renvoyé au serveur qui l’envoie à son tour au client pour afficher ce contenu sur l’écran du visiteur.\n\nLes fonctions PHP sont très intéressantes, puisqu’elles permettent notamment de réaliser des opérations sur le système de fichiers, de générer et modifier des images ou des algorithmes de compression, ou même de gérer des bases de données.",
+  "categorie_id": 1
+},
+  {
+    "id": 2,
+    "titre": "Je test le Javascript",
+    "desc": "JavaScript (qui est souvent abrégé en « JS ») est un langage de script léger, orienté objet, principalement connu comme le langage de script des pages web. Mais il est aussi utilisé dans de nombreux environnements extérieurs aux navigateurs web tels que Node.js, Apache CouchDB voire Adobe Acrobat. Le code JavaScript est interprété ou compilé à la volée (JIT). C'est un langage à objets utilisant le concept de prototype, disposant d'un typage faible et dynamique qui permet de programmer suivant plusieurs paradigmes de programmation : fonctionnelle, impérative et orientée objet. Apprenez-en plus sur JavaScript.",
+    "categorie_id": 2
+  },
+  {
+    "id": 3,
+    "titre": "Je test encore Bootstrap",
+    "desc": "Bootstrap est une collection d'outils utiles à la création du design (graphisme, animation et interactions avec la page dans le navigateur, etc.) de sites et d'applications web. C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs, ainsi que des extensions JavaScript en option. C'est l'un des projets les plus populaires sur la plate-forme de gestion de développement GitHub.",
+    "categorie_id": 3
+  }]

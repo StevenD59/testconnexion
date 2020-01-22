@@ -1,0 +1,21 @@
+[{
+  "nom":"Jean",
+  "prenom":"Dupont",
+  "email":"Jean@dupont.fr",
+  "mdp":"$2y$10$/rhTs9E07ixb4EvetaA1WeAZgzUoAr8UeWpSBOC1HAteGU3csLwyi",
+  "right": "100"
+},
+  {
+    "nom":"Stvn",
+    "prenom":"Dupont",
+    "email":"Steven@dupont.fr",
+    "mdp":"$2y$10$/rhTs9E07ixb4EvetaA1WeAZgzUoAr8UeWpSBOC1HAteGU3csLwyi",
+    "right": "50"
+  },
+  {
+    "nom":"Bruno",
+    "prenom":"Dupont",
+    "email":"Bruno@dupont.fr",
+    "mdp":"$2y$10$/rhTs9E07ixb4EvetaA1WeAZgzUoAr8UeWpSBOC1HAteGU3csLwyi",
+    "right": "20"
+  }]
