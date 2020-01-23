@@ -1,1 +1,12 @@
-[{"id":1,"nom":"Php"},{"id":2,"nom":"Javascript"},{"id":3,"nom":"Bootstrap"}]
+[{
+  "id": 1,
+  "nom": "Php"
+},
+  {
+    "id": 2,
+    "nom": "Javascript"
+  },
+  {
+    "id": 3,
+    "nom": "Bootstrap"
+  }]

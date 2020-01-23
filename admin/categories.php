@@ -58,6 +58,8 @@ require_once("../element/navigation.php");
                 <td class="text-center"><a class=\'btn btn-info btn-xs\' href="categorie_detail.php?categorie_id=' . $val['id'] . '">
                 <span class="glyphicon glyphicon-edit" ></span>Voir</a>
                 <a href="categories.php?action=delete&id=' . $val['id'] . '" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span>Supprimer</a>
+                <a class=\'btn btn-info btn-xs\' href="categories_custom.php">
+                <span class="glyphicon glyphicon-edit" ></span>Modifier</a>
                 </td>
                 
             </tr>';
