@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01d097a3-543e-4387-b3d0-d745ed19ace2" name="Default Changelist" comment="" />
+    <list default="true" id="01d097a3-543e-4387-b3d0-d745ed19ace2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/element/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/element/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/element/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/element/navigation.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +20,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WhzZYXnzFlsoamlIwyZRqG0slg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,6 +31,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../php" />
   </component>
@@ -47,6 +59,7 @@
       <updated>1579616670630</updated>
       <workItem from="1579616673331" duration="34000" />
       <workItem from="1579678151160" duration="18754000" />
+      <workItem from="1579763527127" duration="19632000" />
     </task>
     <servers />
   </component>
@@ -58,5 +71,9 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="620" y="259" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1579696108646" />
+    <state x="535" y="328" key="com.intellij.ide.util.TipDialog" timestamp="1579763617407">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="535" y="328" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1579763617407" />
   </component>
 </project>

@@ -12,18 +12,15 @@
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
-                <?php
-                if ($_SESSION['right_value']>=ADMIN){
-                    echo '<li><a class="nav-link" href="admin/index.php">Admin</a></li>';
-                }
-                ?>
+
+                <li><a class="nav-link" href="admin/index.php">Admin</a>;
 
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php?link=formulaire">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-danger" href="deconnexion.php">Deconnexion</a>
+                    <a class="nav-link text-danger" href="admin/deconnexion.php">Deconnexion</a>
                 </li>
             </ul>
         </div>
