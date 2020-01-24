@@ -25,6 +25,9 @@ require_once("../element/navigation.php");
         <ul class="list-unstyled text-center">
             <li><a class="text-white" href="categories.php" title="aller à la section 1">Liste cat.</a></li>
         </ul>
+        <ul class="list-unstyled text-center">
+            <li><a class="text-white" href="articles_detail.php" title="aller à la section 1">Liste articles</a></li>
+        </ul>
     </div>
     <div class="col-10 container">
 

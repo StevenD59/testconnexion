@@ -1,8 +1,8 @@
 <?php
 session_start();
 require_once('../include/define.php');
-$tableauJson = file_get_contents('../data/categories.json');
-$cat = json_decode($tableauJson, true);
+$tableauJson = file_get_contents('../data/articles.json');
+$art = json_decode($tableauJson, true);
 
 if (isset($_GET['action']) && $_GET['action'] == 'delete') {//$GET c'est lien. Si dans le lien action=delete alors:
     foreach ($cat as $key => $val) {
@@ -10,9 +10,9 @@ if (isset($_GET['action']) && $_GET['action'] == 'delete') {//$GET c'est lien. S
             unset($cat[$key]);//On enleve la clé d'un élément du tableau
         }
     }
-    $tabCatJson = json_encode($cat);
-    file_put_contents('../data/categories.json', $tabCatJson);
-    header('Location: categories.php');
+    $tabArtJson = json_encode($cat);
+    file_put_contents('../data/categories.json', $tabArtJson);
+    header('Location: articles_detail.php');
 }
 ?>
 
@@ -51,10 +51,10 @@ require_once("../element/navigation.php");
             <tr>
             </thead>
             <?php
-            foreach ($cat as $key => $val) {
+            foreach ($art as $key => $val) {
                 echo '<td>
                 <td>' . $val['id'] . '</td>
-                <td>' . $val['nom'] . '</td>
+                <td>' . $val['titre'] . '</td>
                 <td class="text-center"><a class=\'btn btn-info btn-xs\' href="categorie_detail.php?categorie_id=' . $val['id'] . '">
                 <span class="glyphicon glyphicon-edit" ></span>Voir</a>
                 <a href="categories.php?action=delete&id=' . $val['id'] . '" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span>Supprimer</a>

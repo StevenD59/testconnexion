@@ -29,7 +29,7 @@ foreach ($articles as $key => $val) {
     if(isset($_GET['categorie_id']) && $_GET['categorie_id']==$val['categorie_id']){
         echo '<h1 class="text-center">'.$val['titre'].'</h1>';
         echo '<p class="text-center">'.$val['desc'].'</p>';
-        echo '<a href="articles.php?article_id='.$val['id'].'">Suite de l\'article</a>';
+        echo '<a href="articles_detail.php?article_id='.$val['id'].'">Suite de l\'article</a>';
 
     }
 }

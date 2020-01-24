@@ -38,7 +38,7 @@ if(isset($_POST['nom']) && $_POST['nom'] != ''){
 
         header('Location: categories.php');
     }else{
-        $error = 'un souci';
+        $error = 'un soucis';
     }
 }
 
